@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <nav>
+        <h1><strong>LOS COMUNICANTES</strong></h1>
+        <div>
+            <a href="./pagina_principal.html">
+                <button class="bot-inicio"><strong>Inicio</strong></button>
+            </a>
+            <button class="bot-nosotros"  style="border-bottom: 2px solid white;"><strong>Sobre Nosotros</strong></button>
+            <a href="./contactenos.html">
+                <button class="bot-contactanos"><strong>Contactenos</strong></button>
+            </a>   
+        </div>
+    </nav>
+    <section class="secction_04">
+        <div class="content">
+            <p class="titulo"><strong>SOBRE NOSOTROS</strong></p>
+            <div class="imagen_01">
+                <img src="./fondito.jpg" alt="">
+            </div>
+            <p>¡Bienvenidos a Comunicativo, estamos emocionados de hacer la diferencia en el mundo de la ingeniería de sistemas y esperamos tener la oportunidad de colaborar con ustedes en el futuro. Si están listos para marcar la diferencia, ¡contáctennos hoy mismo!</p>
+            <button class="bot_leer_mas">LEER SOBRE NOSOTROS</button>
+        </div>
+    </section>
+    <section class="secction_05">
+        <p class="conocenos"><strong>CONOCENOS:</strong></p>
+        <div  class="cont">
+            <div class="tarjerta">
+                <img src="./carlos.png" alt="">
+            </div>
+            <div class="tarjerta">
+                <img src="./claudia.png" alt="">
+            </div>
+            <div class="tarjerta">
+                <img src="./daniel.jpeg" alt="">
+            </div>
+        </div>
+        <div class="div_contac">
+            <a href="./contactenos.html">
+                <button class="contac">CONTACTANOS</button>
+            </a> 
+        </div>
+    </section>
+    <script>
+        // JavaScript para cambiar el color del nav al hacer scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) { // Ajusta el valor para cuando quieres que cambie el color
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

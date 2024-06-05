@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog grupal</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <nav>
+        <h1><strong>LOS COMUNICANTES</strong></h1>
+        <div>
+            <button class="bot-inicio" style="border-bottom: 2px solid white;"><strong>Inicio</strong></button>
+            <a href="./sobre_nosotros.html">
+                <button class="bot-nosotros"><strong>Sobre Nosotros</strong></button>
+            </a>
+            <a href="./contactenos.html">
+                <button class="bot-contactanos"><strong>Contactenos</strong></button>
+            </a>   
+        </div>
+    </nav>
+    <section class="secction_01">
+        <div class="content">
+            <p class="titulo"><strong>LOS COMUNICANTES</strong></p>
+            <p>"Nos visualizamos como un equipo de referencia en el ámbito de la Ingeniería de Sistemas, reconocidos por nuestra excelencia en el diseño, desarrollo e implementación de soluciones tecnológicas que transforman positivamente la forma en que las organizaciones operan y las personas interactúan con la tecnología. Buscamos inspirar a las generaciones futuras de ingenieros de sistemas, promoviendo la innovación, el trabajo en equipo y la ética profesional en todo lo que hacemos." </p>
+            <button class="bot_leer_mas">LEER MAS</button>
+        </div>
+    </section>
+    <section class="secction_02">
+        <div class="content">
+            <p class="titulo"><strong>VISION</strong></p>
+            <p>En nuestro equipo, nos comprometemos a utilizar nuestra creatividad, conocimientos técnicos y habilidades interpersonales para desarrollar soluciones innovadoras que aborden los desafíos tecnológicos de hoy y del futuro. Nos esforzamos por ser líderes en la implementación de tecnología de vanguardia, contribuyendo así al progreso de la sociedad y al éxito de nuestros clientes y colaboradores.</p>
+        </div>
+    </section>
+    <section class="secction_03">
+        <div class="content">
+            <p class="titulo"><strong>MISION</strong></p>
+            <p>Nuestra misión es superar las expectativas de nuestros clientes con cada proyecto nuevo y con cada nueva colaboración. Por ello nuestra gente es tan importante. ¡Nos encanta lo que hacemos! Llevamos trabajando incansablemente durante años para formar un equipo de expertos con ideas afines que compartieran nuestra forma de ver las cosas. Cuando conozca a las personas reales que hay detrás de nuestra marca, las habilidades que aportan a nuestra empresa y el tipo de resultados que podemos lograr juntos, entenderá por qué son nuestra mayor riqueza, y la suya.</p>
+        </div>
+    </section>
+    <script>
+        // JavaScript para cambiar el color del nav al hacer scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) { // Ajusta el valor para cuando quieres que cambie el color
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -12,7 +12,7 @@ section {
     place-items: center;
 }
 .secction_01{
-    background-image: url("./fon.jpg");
+    background-image: url("./assets/img/fondo_seccion_hero.webp");
     height: 120vh;
     color: #cfbda9;
 }
@@ -22,7 +22,7 @@ section {
     height: 80vh;
 }
 .secction_03{
-    background-image: url("./foto.jpg");
+    background-image: url("./assets/img/fondo_arena.webp");
     color: #cfbda9;
     height: 100vh;
 }
@@ -32,7 +32,7 @@ section {
     height: 150vh;
 }
 .secction_05{
-    background-image: url("./foto.jpg");
+    background-image: url("./assets/img/fondo_arena.webp");
     color: #cfbda9;
     height: 100vh;
     display: flex;
